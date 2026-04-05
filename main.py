@@ -48,7 +48,7 @@ print(result)
 
 
 #mail automation
-from Email_automation import Email_Automation
+from email_automation import Email_Automation
 issues=[r for r in result if r["status"]!='BLOCKED']
 
 Email_Automation(issues)
