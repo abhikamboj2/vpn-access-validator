@@ -1,0 +1,14 @@
+Start
+ → Load config (.env)
+ → Start browser
+ → Loop flows (home, auto)
+     → Loop zip codes
+         → Open site
+         → Enter zip
+         → Trigger quote
+         → Validate (Access Denied or not)
+         → Store result
+ → Save report (CSV)
+ → Check failures
+ → If failures → Send Email
+ → End
